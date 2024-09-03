@@ -5,6 +5,16 @@ description: Instalación WordPress en Debian 12 con pila LAMP PHP-8
 tags: [WordPress,CMS,IWEB,AW,debian]
 hero: /images/iweb/wordpress/portada_wordpress.png
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GVDYVWJLRH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GVDYVWJLRH');
+</script>
+
 # Instalación WordPress en Debian 12 con pila LAMP PHP-8
 
 WordPress es un sistema de gestión de contenidos (CMS, por sus siglas en inglés) de código abierto muy popular que se utiliza para crear y administrar sitios web y blogs. Fue lanzado por primera vez en 2003 y desde entonces ha ganado una amplia base de usuarios y una comunidad activa de desarrolladores y diseñadores.
@@ -15,12 +25,12 @@ WordPress es un sistema de gestión de contenidos (CMS, por sus siglas en inglé
 Antes de empezar con la instalación de WordPress vamos a dejar claro en una lista cual es el ecosistema de nuestro servidor para que todo funcione correctamente:
 
 - Servidor LAMP completo: Apache + MySQL -o MariaDB- y PHP 8.x.
-- Configurado un Virtualhost para nuestro dominio.
+- Configurado un VirtualHost para nuestro dominio.
 - Creación de base de datos con usuario.
 
 Si no tienes instalado la pila LAMP sigue puedes hacerlo en [este enlace.](https://www.javiercd.es/posts/iaw/lamp/lamp/)
 
-## Creación del virtualhost
+## Creación del VirtualHost
 
 Copiamos el archivo de configuración predeterminado de Apache y lo renombramos a wordpress.conf
 
@@ -78,7 +88,7 @@ Recargamos Apache para aplicar la nueva configuración
 javiercruces@IWEB:/etc/apache2/sites-available$ sudo systemctl reload apache2
 ```
 
-Para acceder a este virtualhost , en la maquina donde vayas a acceder al wordpress , al no tener servidor dns recuerda poner en el fichero host la ip de tu servidor con el ServerName :
+Para acceder a este VirtualHost , en la maquina donde vayas a acceder al wordpress , al no tener servidor dns recuerda poner en el fichero host la ip de tu servidor con el ServerName :
 
 ```bash
 javiercruces@HPOMEN15:~$ cat /etc/hosts 
