@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redes on Atlas</title>
+    <link>https://www.javiercd.es/posts/redes/</link>
+    <description>Recent content in Redes on Atlas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 08 Oct 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://www.javiercd.es/posts/redes/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Escenario IPv6 Básico</title>
+      <link>https://www.javiercd.es/posts/redes/escenario_ipv6_basico/escenario_ipv6_basico/</link>
+      <pubDate>Sun, 08 Oct 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/escenario_ipv6_basico/escenario_ipv6_basico/</guid>
+      <description>&lt;p&gt;A lo largo de esta guía, exploraremos la configuración de un escenario básico utilizando redes IPv6 tanto en sistemas Linux como en dispositivos Cisco. Además, abordaremos la configuración de un servidor Apache aprovechando las capacidades de IPv6.&lt;/p&gt;
+&lt;h2 id=&#34;linux-autoconfiguración-ipv6&#34;&gt;Linux Autoconfiguración IPV6&lt;/h2&gt;
+&lt;p&gt;Conecta dos máquinas Linux al mismo switch y comprueba que tienen conectividad con IPv6 usando la dirección de enlace local.&lt;/p&gt;
+&lt;p&gt;Comprobaremos las IPV6 que tienen los distintos pcs . El PC1 tiene –&amp;gt; fe80::ef7:42ff:fe92:0/64&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comandos de supervisión de redes</title>
+      <link>https://www.javiercd.es/posts/redes/comandos_de_supervision_de_redes/comandos_de_supervisi%C3%B3n_de_redes/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/comandos_de_supervision_de_redes/comandos_de_supervisi%C3%B3n_de_redes/</guid>
+      <description>&lt;p&gt;Documento en el cual se detallan los principales comandos a la hora de detectar incidencias en redes y lograr solucionarlos .&lt;/p&gt;
+&lt;h2 id=&#34;comandos-en-windows&#34;&gt;Comandos en Windows&lt;/h2&gt;
+&lt;h3 id=&#34;explica-el-significado-de-los-distintos-parámetros-a-configurar-en-las-propiedades-de-tcpip-en-windows&#34;&gt;Explica el significado de los distintos parámetros a configurar en las Propiedades de TCP/IP en Windows&lt;/h3&gt;
+&lt;p&gt;Tenemos que tener en cuenta que cada configuración que hagamos es independiente para cada uno de nuestros adaptadores de red .&lt;/p&gt;
+&lt;p&gt;Para acceder a configurar estos parámetros seguiremos la siguiente ruta en nuestro sistema  :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuración de NAT Cisco y Linux</title>
+      <link>https://www.javiercd.es/posts/redes/configuracion_de_nat/configuracion_de_nat/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/configuracion_de_nat/configuracion_de_nat/</guid>
+      <description>&lt;p&gt;En este artículo, exploraremos la configuración de SNAT (Source Network Address Translation) y DNAT (Destination Network Address Translation) en escenarios con direcciones públicas, haciendo uso de routers en entornos Linux y dispositivos Cisco.&lt;/p&gt;
+&lt;h2 id=&#34;escenario-con-maquinas-debian&#34;&gt;Escenario con maquinas debian&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5d96acd8-9177-4bad-9621-78ead201ec37.001.jpeg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;preparación-del-entorno&#34;&gt;Preparación del entorno&lt;/h3&gt;
+&lt;h4 id=&#34;instalación-de-paquetes&#34;&gt;Instalación de paquetes&lt;/h4&gt;
+&lt;p&gt;Una vez colocadas las maquinas deberemos de descargarnos apache para los servidores web , para realizar esto conectaremos ambos servidores a un switch y este a la nube NAT para disponer de acceso a internet .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuración de switches en GNS3</title>
+      <link>https://www.javiercd.es/posts/redes/switches_gns3/configuracion_de_switches_en_gns3/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/switches_gns3/configuracion_de_switches_en_gns3/</guid>
+      <description>&lt;p&gt;Aprenderás a configurar switches en GNS3, tanto dispositivos genéricos como switches Cisco, utilizando el concepto de VLANs para segmentar la red y explorar las complejidades de la gestión de redes.&lt;/p&gt;
+&lt;h2 id=&#34;preparación-escenario&#34;&gt;Preparación escenario&lt;/h2&gt;
+&lt;p&gt;Lo primero que haré sera montar el escenario :&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.1880b7c0-3050-4e53-a32a-505911fdf872.001.jpeg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;configuración-de-red-de-los-clientes&#34;&gt;Configuración de red de los clientes&lt;/h3&gt;
+&lt;p&gt;A continuación configurare las tarjetas de red de los clientes , aprovechando que la nube NAT incluye un servidor DHCP.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Enrutamiento en OpenStack</title>
+      <link>https://www.javiercd.es/posts/redes/enroutamiento_openstack/enroutamiento_openstack/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/enroutamiento_openstack/enroutamiento_openstack/</guid>
+      <description>&lt;p&gt;En esta práctica, exploraremos la creación de un escenario mediante la orquestación de OpenStack y, posteriormente, llevaremos a cabo el enrutamiento para asegurar la conectividad entre las distintas máquinas virtuales. Este ejercicio nos permitirá comprender y aplicar el uso de OpenStack para gestionar entornos virtuales, además de configurar la red de manera eficiente para facilitar la comunicación entre los diferentes dispositivos en el escenario.&lt;/p&gt;
+&lt;h2 id=&#34;escenario-a-montar-en-openstack&#34;&gt;Escenario a montar en OpenStack&lt;/h2&gt;
+&lt;p&gt;Para poder montar nuestro escenario en OpenStack debido a la situación actual de las imágenes que hay disponibles , necesitaremos preparar una instancia la cual tenga habilitado el acceso por contraseña . Además si posteriormente a partir de una queremos configurar otra habilitar el acceso ssh por contraseña para este usuario .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalación GNS3 y Wireshark en Debian</title>
+      <link>https://www.javiercd.es/posts/redes/instalacion_wireshark_gns3/instalacion-gns3-y-wireshark/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/instalacion_wireshark_gns3/instalacion-gns3-y-wireshark/</guid>
+      <description>&lt;!-- ![2](/images/redes/instalacion_wireshark_gns3/portada_instalacion_wireshark_gns3.jpeg)
+
+![](/images/redes/instalacion_wireshark_gns3/Aspose.Words.7be2264a-b643-4cb1-9a61-896b263a0d52.003.jpeg) --&gt;
+&lt;h2 id=&#34;1-introducción&#34;&gt;1. &lt;strong&gt;Introducción&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Wireshark es un analizador de protocolos utilizado para realizar análisis y solucionar problemas en redes de comunicaciones, para análisis de datos y protocolos, y como una herramienta didáctica.&lt;/p&gt;
+&lt;p&gt;Añade una interfaz gráfica y muchas opciones de organización y filtrado de información. Así, permite ver todo el tráfico que pasa a través de una red estableciendo la configuración en modo promiscuo de nuestra tarjeta de red . También incluye una versión basada en texto llamada tshark.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Protocolo ARP</title>
+      <link>https://www.javiercd.es/posts/redes/arp/arp/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/arp/arp/</guid>
+      <description>&lt;p&gt;El Protocolo de Resolución de Direcciones (ARP) es fundamental en redes informáticas para mapear direcciones IP a direcciones físicas de capa de enlace (MAC). Su función principal es encontrar la dirección MAC asociada a una dirección IP específica en una red local. Cuando un dispositivo necesita comunicarse con otro en la misma red, utiliza ARP para determinar la dirección MAC del destino antes de enviar datos.&lt;/p&gt;
+&lt;h2 id=&#34;crees-que-la-pregunta-arp-es-un-mensaje-de-difusión-realiza-una-captura-en-wireshark-de-una-petición-arp-y-analízala-para-justificar-tu-respuesta&#34;&gt;¿Crees que la pregunta ARP es un mensaje de difusión? Realiza una captura en Wireshark de una petición ARP y analízala para justificar tu respuesta.&lt;/h2&gt;
+&lt;p&gt;Si , es un mensaje de difusión ya que en la cabecera podemos ver que el destino tiene una dirección de broadcast . Esta dirección es la que tiene todos sus bits a 1 que en las direcciones mac se traduce en FF:FF:FF:FF:FF:FF .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Túneles IPV6</title>
+      <link>https://www.javiercd.es/posts/redes/tuneles_ipv6/tuneles_ipv6/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/tuneles_ipv6/tuneles_ipv6/</guid>
+      <description>&lt;p&gt;En este post detallado, exploramos el proceso de configuración de túneles IPv6 a IPv4 y viceversa en entornos Linux y Cisco. A medida que la migración hacia IPv6 gana importancia, la capacidad de establecer comunicaciones entre redes IPv4 e IPv6 se vuelve fundamental. Cubriremos los conceptos básicos de la configuración de túneles, incluyendo los tipos de túneles más comunes, como 6to4 y Teredo. Además, proporcionaremos instrucciones paso a paso para la configuración tanto en sistemas Linux como en dispositivos Cisco&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Underworld</title>
+      <link>https://www.javiercd.es/posts/redes/underworld/underworld/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/underworld/underworld/</guid>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+&lt;p&gt;Vives en UNDERWORLD. En tu mundo, se presentan diferentes tipos de especies con un único fin, “cruzarse” entre sí. Estas criaturas son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;VAMPIROS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LICÁNTROPOS: hombres lobo con la capacidad de regresar a su estado humano.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HOMBRES LOBO: hombres lobo que tras su primera conversión a lobo, no pudieron regresar a su estado humano.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HUMANOS: unos mierdecillas.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Underworld evolution</title>
+      <link>https://www.javiercd.es/posts/redes/underworld_evolution/underworld_evolution/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/underworld_evolution/underworld_evolution/</guid>
+      <description>&lt;p&gt;El mundo de UNDERWORLD ha evolucionado mucho en los últimos meses, así que debes realizar tareas de administración de la red para afrontar la nueva situación.&lt;/p&gt;
+&lt;p&gt;Por un lado, se ha descubierto Internet en el Inframundo, de forma que cada uno de los submundos (recuerda: vampiros, licántropos, hombres lobo y humanos) se conecta a un router que, a su vez, les conecta a uno de los dos grandes routers que forman la Internet de Underworld, llamados Marcus (para humanos y vampiros) y Alexander (para hombres lobo y licántropos). Marcus y Alexander están conectados entre sí.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

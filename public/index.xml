@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atlas</title>
+    <link>https://www.javiercd.es/</link>
+    <description>Recent content on Atlas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 28 Oct 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://www.javiercd.es/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Instalación pila LAMP en debian 12</title>
+      <link>https://www.javiercd.es/posts/iaw/lamp/lamp/</link>
+      <pubDate>Sat, 28 Oct 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/iaw/lamp/lamp/</guid>
+      <description>&lt;h1 id=&#34;instalación-pila-lamp-en-debian-12&#34;&gt;Instalación pila LAMP en Debian 12&lt;/h1&gt;
+&lt;p&gt;Si estás utilizando Debian 12, sigue los pasos a continuación para instalar un servidor web LAMP completo en Debian GNU/Linux 12 &amp;ldquo;Bookworm&amp;rdquo; (Stable). Ten en cuenta que Debian 12 incluye PHP 8.2 en sus repositorios, lo que puede ser diferente de versiones anteriores de Debian.&lt;/p&gt;
+&lt;h2 id=&#34;instalación-del-servidor-web&#34;&gt;Instalación del servidor web&lt;/h2&gt;
+&lt;p&gt;Lo primero en un servidor LAMP es la &amp;ldquo;A&amp;rdquo; de Apache. Para instalar Apache, ejecuta los siguientes comandos:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalación pila LEMP en debian 12 con PHP-8</title>
+      <link>https://www.javiercd.es/posts/iaw/lemp/lemp/</link>
+      <pubDate>Sat, 28 Oct 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/iaw/lemp/lemp/</guid>
+      <description>&lt;h1 id=&#34;instalación-pila-lemp-en-debian-12-con-php-8&#34;&gt;Instalación pila LEMP en debian 12 con PHP-8&lt;/h1&gt;
+&lt;p&gt;En esta guía, te explicare los pasos necesarios para instalar una pila LEMP (Linux, Nginx, MariaDB y PHP) en un servidor con Debian 12. La configuración incluirá PHP 8.2 como versión principal. La pila LEMP es esencial para alojar sitios web y aplicaciones web basadas en PHP, como WordPress u otras aplicaciones dinámicas. Sigue los pasos detallados a continuación para configurar tu servidor LEMP con PHP 8.2.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalación WordPress en Debian 12 con pila LAMP PHP-8</title>
+      <link>https://www.javiercd.es/posts/iaw/wordpress/instalacion_wordpress/</link>
+      <pubDate>Sat, 28 Oct 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/iaw/wordpress/instalacion_wordpress/</guid>
+      <description>&lt;h1 id=&#34;instalación-wordpress-en-debian-12-con-pila-lamp-php-8&#34;&gt;Instalación WordPress en Debian 12 con pila LAMP PHP-8&lt;/h1&gt;
+&lt;p&gt;WordPress es un sistema de gestión de contenidos (CMS, por sus siglas en inglés) de código abierto muy popular que se utiliza para crear y administrar sitios web y blogs. Fue lanzado por primera vez en 2003 y desde entonces ha ganado una amplia base de usuarios y una comunidad activa de desarrolladores y diseñadores.&lt;/p&gt;
+&lt;h2 id=&#34;preparación&#34;&gt;Preparación&lt;/h2&gt;
+&lt;p&gt;Antes de empezar con la instalación de WordPress vamos a dejar claro en una lista cual es el ecosistema de nuestro servidor para que todo funcione correctamente:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalación WordPress en Debian 12 con pila LEMP PHP-8</title>
+      <link>https://www.javiercd.es/posts/iaw/wordpress_lemp/instalacion_wordpress_lemp/</link>
+      <pubDate>Sat, 28 Oct 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/iaw/wordpress_lemp/instalacion_wordpress_lemp/</guid>
+      <description>&lt;h1 id=&#34;instalación-wordpress-en-debian-12-con-pila-lemp-php-8&#34;&gt;Instalación WordPress en Debian 12 con pila LEMP PHP-8&lt;/h1&gt;
+&lt;p&gt;WordPress es un sistema de gestión de contenidos (CMS, por sus siglas en inglés) de código abierto muy popular que se utiliza para crear y administrar sitios web y blogs. Fue lanzado por primera vez en 2003 y desde entonces ha ganado una amplia base de usuarios y una comunidad activa de desarrolladores y diseñadores.&lt;/p&gt;
+&lt;h2 id=&#34;requisitos-previos&#34;&gt;Requisitos previos&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Servidor con Linux:&lt;/strong&gt; Debes disponer de un servidor que ejecute Linux , la guía esta pensada para Debian 12 .&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Usuario con permisos de superusuario:&lt;/strong&gt; Debes tener acceso a un usuario con privilegios sudo en el servidor para poder llevar a cabo las tareas de instalación y configuración.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nombre de Dominio Completo (FQDN):&lt;/strong&gt; Si deseas acceder a tu sitio WordPress a través de un dominio personalizado, asegúrate de tener configurado y apuntando un nombre de dominio completo (FQDN) al servidor.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Acceso a Internet:&lt;/strong&gt; Necesitas acceso a Internet para descargar paquetes y realizar actualizaciones durante el proceso de instalación.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Asegúrate de cumplir con todos estos requisitos antes de comenzar con la instalación de WordPress en tu servidor .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Escenario IPv6 Básico</title>
+      <link>https://www.javiercd.es/posts/redes/escenario_ipv6_basico/escenario_ipv6_basico/</link>
+      <pubDate>Sun, 08 Oct 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/escenario_ipv6_basico/escenario_ipv6_basico/</guid>
+      <description>&lt;p&gt;A lo largo de esta guía, exploraremos la configuración de un escenario básico utilizando redes IPv6 tanto en sistemas Linux como en dispositivos Cisco. Además, abordaremos la configuración de un servidor Apache aprovechando las capacidades de IPv6.&lt;/p&gt;
+&lt;h2 id=&#34;linux-autoconfiguración-ipv6&#34;&gt;Linux Autoconfiguración IPV6&lt;/h2&gt;
+&lt;p&gt;Conecta dos máquinas Linux al mismo switch y comprueba que tienen conectividad con IPv6 usando la dirección de enlace local.&lt;/p&gt;
+&lt;p&gt;Comprobaremos las IPV6 que tienen los distintos pcs . El PC1 tiene –&amp;gt; fe80::ef7:42ff:fe92:0/64&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Active Directory en Ubuntu</title>
+      <link>https://www.javiercd.es/posts/sistemas/ad_ubuntu/ad_ubuntu/</link>
+      <pubDate>Wed, 20 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/ad_ubuntu/ad_ubuntu/</guid>
+      <description>&lt;p&gt;En este post, exploraremos cómo configurar un entorno de Active Directory en un servidor Ubuntu utilizando herramientas como Kerberos y Samba. Active Directory es una solución integral de Microsoft para la gestión de identidades y el control de acceso en redes empresariales. A través de esta guía, aprenderemos paso a paso cómo implementar un servidor Ubuntu como controlador de dominio, establecer la autenticación basada en Kerberos y configurar servicios de directorio mediante Samba.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comandos programación de tareas en Linux</title>
+      <link>https://www.javiercd.es/posts/sistemas/programacion_tareas/programacion_tareas/</link>
+      <pubDate>Wed, 20 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/programacion_tareas/programacion_tareas/</guid>
+      <description>&lt;p&gt;La gestión eficiente de tareas programadas es esencial para los administradores de sistemas, ya que facilita la ejecución automática de procesos rutinarios. En este contexto, contar con un conjunto sólido de comandos en Linux para programar y controlar tareas se convierte en una herramienta fundamental.&lt;/p&gt;
+&lt;h2 id=&#34;comando-sleep&#34;&gt;Comando sleep&lt;/h2&gt;
+&lt;p&gt;El comando sleep pausa la ejecución en la terminal durante un intervalo de tiempo especificado antes de regresar a la línea de comandos. Puedes indicar el tiempo en segundos, minutos, horas o días. Este comando se encuentra en el paquete coreutils.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalar y configurar samba en Debian</title>
+      <link>https://www.javiercd.es/posts/sistemas/samba_debian/samba_debian/</link>
+      <pubDate>Wed, 20 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/samba_debian/samba_debian/</guid>
+      <description>&lt;p&gt;Samba es una implementación libre y de código abierto del protocolo Server Message Block (SMB), que se utiliza para compartir archivos e impresoras en redes de computadoras. El protocolo SMB es un protocolo de red que permite que los sistemas operativos Windows se comuniquen con otros dispositivos de red, como servidores de archivos, impresoras y otros recursos compartidos.&lt;/p&gt;
+&lt;p&gt;Samba facilita la interoperabilidad entre sistemas Windows y sistemas operativos basados en Unix/Linux al permitir que los sistemas Unix compartan archivos y recursos con sistemas Windows utilizando el protocolo SMB/CIFS. Esto significa que un servidor Samba puede actuar como un servidor de archivos para clientes Windows, permitiéndoles acceder y compartir archivos como si estuvieran en un entorno Windows.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comandos de supervisión de redes</title>
+      <link>https://www.javiercd.es/posts/redes/comandos_de_supervision_de_redes/comandos_de_supervisi%C3%B3n_de_redes/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/comandos_de_supervision_de_redes/comandos_de_supervisi%C3%B3n_de_redes/</guid>
+      <description>&lt;p&gt;Documento en el cual se detallan los principales comandos a la hora de detectar incidencias en redes y lograr solucionarlos .&lt;/p&gt;
+&lt;h2 id=&#34;comandos-en-windows&#34;&gt;Comandos en Windows&lt;/h2&gt;
+&lt;h3 id=&#34;explica-el-significado-de-los-distintos-parámetros-a-configurar-en-las-propiedades-de-tcpip-en-windows&#34;&gt;Explica el significado de los distintos parámetros a configurar en las Propiedades de TCP/IP en Windows&lt;/h3&gt;
+&lt;p&gt;Tenemos que tener en cuenta que cada configuración que hagamos es independiente para cada uno de nuestros adaptadores de red .&lt;/p&gt;
+&lt;p&gt;Para acceder a configurar estos parámetros seguiremos la siguiente ruta en nuestro sistema  :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Compartir directorios con NFS en debian</title>
+      <link>https://www.javiercd.es/posts/sistemas/nfs_debian/nfs/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/nfs_debian/nfs/</guid>
+      <description>&lt;p&gt;La tecnología NFS (Network File System) ha sido una pieza fundamental en la compartición de archivos en entornos de red. Desarrollada por Sun Microsystems, NFS permite a sistemas operativos Unix y Linux compartir recursos de archivos de manera transparente, brindando acceso a archivos y directorios remotos como si estuvieran almacenados localmente.&lt;/p&gt;
+&lt;h2 id=&#34;1instalación--y-configuración-nfs&#34;&gt;1.Instalación  y configuración NFS&lt;/h2&gt;
+&lt;p&gt;Instalamos el paquete nfs-kernel-server.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.11ce2099-f519-43cd-a00b-9a47a367ade4.001.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Crearemos el directorio que vamos a compartir  y le cambiamos los dueños y los permisos del mismo :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Compartir recursos en red en Windows Server</title>
+      <link>https://www.javiercd.es/posts/sistemas/comparticion_de_directorios_en_windows/comparticion_de_directorios_en_windows/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/comparticion_de_directorios_en_windows/comparticion_de_directorios_en_windows/</guid>
+      <description>&lt;p&gt;En el entorno empresarial, la capacidad de compartir recursos en red es esencial para la colaboración y la eficiencia operativa. En este artículo, exploraremos cómo compartir directorios en un entorno Windows Server, abordando los métodos tanto a través de la interfaz gráfica como mediante cmd y PowerShell.&lt;/p&gt;
+&lt;h2 id=&#34;desde-la-interfaz-gráfica&#34;&gt;Desde la interfaz gráfica&lt;/h2&gt;
+&lt;p&gt;Podemos compartir un directorio de nuestro servidor , accediendo a las propiedades del mismo . Una vez aquí pulsamos sobre el menú compartir :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuración Apache bajo debian</title>
+      <link>https://www.javiercd.es/posts/servicios/apache/apache/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/servicios/apache/apache/</guid>
+      <description>&lt;h2 id=&#34;instalar-un-servidor-web-apache-para-el-uso-en-una-intranet&#34;&gt;Instalar un servidor web Apache para el uso en una Intranet&lt;/h2&gt;
+&lt;p&gt;Para instalar el servidor debemos ejecutar como root el siguiente comando:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.125.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Crea dentro del directorio /var/www/html un fichero llamado entrada.html en el que pongáis un mensaje de bienvenida&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.126.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Ahora  lo meteré dentro de la ruta :&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.127.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A continuación vamos a publicar una página más completa en nuestro servidor, para ello&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuración de NAT Cisco y Linux</title>
+      <link>https://www.javiercd.es/posts/redes/configuracion_de_nat/configuracion_de_nat/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/configuracion_de_nat/configuracion_de_nat/</guid>
+      <description>&lt;p&gt;En este artículo, exploraremos la configuración de SNAT (Source Network Address Translation) y DNAT (Destination Network Address Translation) en escenarios con direcciones públicas, haciendo uso de routers en entornos Linux y dispositivos Cisco.&lt;/p&gt;
+&lt;h2 id=&#34;escenario-con-maquinas-debian&#34;&gt;Escenario con maquinas debian&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5d96acd8-9177-4bad-9621-78ead201ec37.001.jpeg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;preparación-del-entorno&#34;&gt;Preparación del entorno&lt;/h3&gt;
+&lt;h4 id=&#34;instalación-de-paquetes&#34;&gt;Instalación de paquetes&lt;/h4&gt;
+&lt;p&gt;Una vez colocadas las maquinas deberemos de descargarnos apache para los servidores web , para realizar esto conectaremos ambos servidores a un switch y este a la nube NAT para disponer de acceso a internet .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuración de switches en GNS3</title>
+      <link>https://www.javiercd.es/posts/redes/switches_gns3/configuracion_de_switches_en_gns3/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/switches_gns3/configuracion_de_switches_en_gns3/</guid>
+      <description>&lt;p&gt;Aprenderás a configurar switches en GNS3, tanto dispositivos genéricos como switches Cisco, utilizando el concepto de VLANs para segmentar la red y explorar las complejidades de la gestión de redes.&lt;/p&gt;
+&lt;h2 id=&#34;preparación-escenario&#34;&gt;Preparación escenario&lt;/h2&gt;
+&lt;p&gt;Lo primero que haré sera montar el escenario :&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.1880b7c0-3050-4e53-a32a-505911fdf872.001.jpeg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;configuración-de-red-de-los-clientes&#34;&gt;Configuración de red de los clientes&lt;/h3&gt;
+&lt;p&gt;A continuación configurare las tarjetas de red de los clientes , aprovechando que la nube NAT incluye un servidor DHCP.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuración servicio ssh en Windows</title>
+      <link>https://www.javiercd.es/posts/sistemas/ssh_windows/ssh_windows/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/ssh_windows/ssh_windows/</guid>
+      <description>&lt;h2 id=&#34;1instalación-de-la-característica&#34;&gt;1.Instalación de la característica&lt;/h2&gt;
+&lt;p&gt;Lo primero que comprobaremos es comprobar si el servidor ssh esta instalado en la maquina a la cual queremos conectarnos .&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ps&#34; data-lang=&#34;ps&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Get-WindowsCapability&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;-Online&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Where-Object&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;-like&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;&amp;#39;OpenSSH\*&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.abd631a7-a62e-4d27-bef0-1d38f74ce102.001.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;En el caso de que tengamos la característica la instalaremos :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ps&#34; data-lang=&#34;ps&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Add-WindowsCapability&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;-Online&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;-Name&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;OpenSSH.Server~~~~0.0.1.0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
+    </item>
+    
+    <item>
+      <title>Configuración servidor DHCP bajo debian</title>
+      <link>https://www.javiercd.es/posts/servicios/dhcp/dhcp_ipv4/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/servicios/dhcp/dhcp_ipv4/</guid>
+      <description>&lt;h1 id=&#34;configuración-servidor-dhcp-bajo-debian&#34;&gt;Configuración servidor DHCP bajo debian&lt;/h1&gt;
+&lt;p&gt;En este artículo aprenderás cómo configurar el servidor DHCP isc-dhcp-server. Además, configurarás una reserva y lo configuraras para que funcione en dos ámbitos.&lt;/p&gt;
+&lt;h2 id=&#34;instalación-del-servidor-isc-dhcp-server&#34;&gt;Instalación del servidor isc-dhcp-server&lt;/h2&gt;
+&lt;p&gt;Para instalar nuestro servidor dhcp ejecutamos:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.015.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Nos dará el siguiente error ya que no esta configurado :&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.016.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;configuración-del-servidor-isc-dhcp-server&#34;&gt;Configuración del servidor isc-dhcp-server&lt;/h2&gt;
+&lt;p&gt;Lo primero que tenemos que hacer es configurar el interfaz de red por el que va a trabajar el servidor dhcp, para ello editamos el siguiente fichero:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuración servidor DNS en Debian</title>
+      <link>https://www.javiercd.es/posts/servicios/dns/dns/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/servicios/dns/dns/</guid>
+      <description>&lt;h1 id=&#34;configuración-servidor-dns-en-debian&#34;&gt;Configuración servidor DNS en Debian&lt;/h1&gt;
+&lt;h2 id=&#34;dnsmasq&#34;&gt;Dnsmasq&lt;/h2&gt;
+&lt;p&gt;El paquete dnsmasq permite poner en marcha un servidor DNS de una forma muy sencilla. Simplemente instalando y arrancando el servicio dnsmasq, sin realizar ningún tipo de configuración adicional, nuestro PC se convertirá en un servidor caché DNS y además, resolverá los nombres que tengamos configurados en el archivo /etc/hosts de nuestro servidor. La resolución funcionará tanto en sentido directo como en sentido inverso, es decir, resolverá la IP dado un nombre de PC y el nombre del PC dada la IP.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Empaquetadores y compresores en Linux</title>
+      <link>https://www.javiercd.es/posts/sistemas/empaquetadores_compresores/empaquetadores-compresores-descompresores/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/empaquetadores_compresores/empaquetadores-compresores-descompresores/</guid>
+      <description>&lt;p&gt;Los empaquetadores y compresores son elementos fundamentales en la gestión de archivos y datos en el ámbito informático. Los empaquetadores permiten agrupar varios archivos en un solo contenedor, facilitando su manipulación y transporte. Por otro lado, los compresores aplican técnicas para reducir el tamaño de los archivos, contribuyendo al ahorro de espacio de almacenamiento y agilizando la transferencia de datos. Estas herramientas desempeñan un papel crucial en la optimización de recursos y la eficiencia operativa al organizar, distribuir y respaldar información de manera más eficaz.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Enrutamiento en OpenStack</title>
+      <link>https://www.javiercd.es/posts/redes/enroutamiento_openstack/enroutamiento_openstack/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/enroutamiento_openstack/enroutamiento_openstack/</guid>
+      <description>&lt;p&gt;En esta práctica, exploraremos la creación de un escenario mediante la orquestación de OpenStack y, posteriormente, llevaremos a cabo el enrutamiento para asegurar la conectividad entre las distintas máquinas virtuales. Este ejercicio nos permitirá comprender y aplicar el uso de OpenStack para gestionar entornos virtuales, además de configurar la red de manera eficiente para facilitar la comunicación entre los diferentes dispositivos en el escenario.&lt;/p&gt;
+&lt;h2 id=&#34;escenario-a-montar-en-openstack&#34;&gt;Escenario a montar en OpenStack&lt;/h2&gt;
+&lt;p&gt;Para poder montar nuestro escenario en OpenStack debido a la situación actual de las imágenes que hay disponibles , necesitaremos preparar una instancia la cual tenga habilitado el acceso por contraseña . Además si posteriormente a partir de una queremos configurar otra habilitar el acceso ssh por contraseña para este usuario .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FTP bajo debian </title>
+      <link>https://www.javiercd.es/posts/servicios/ftp/ftp/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/servicios/ftp/ftp/</guid>
+      <description>&lt;h1 id=&#34;servidor-ftp-bajo-debian&#34;&gt;Servidor FTP bajo debian&lt;/h1&gt;
+&lt;h2 id=&#34;instalación-y-configuración-del-servidor-proftpd-autentificado&#34;&gt;Instalación y configuración del servidor proFTPd autentificado&lt;/h2&gt;
+&lt;p&gt;1.Primero nos crearemos un grupo que se llame ftpgroup :
+&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.160.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2.Crea dos usuarios locales que pertenezcan al grupo ftp que hemos creado: Jose y Maria&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.161.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;3.Nos instalamos el servicio ftp :&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.162.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;4.Configuración básica del fichero proftpd.conf:&lt;/p&gt;
+&lt;p&gt;Todos los usuarios accedan  solo a su directorio :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gestión de Procesos en Linux</title>
+      <link>https://www.javiercd.es/posts/sistemas/comandos_procesos/comandos_procesos/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/comandos_procesos/comandos_procesos/</guid>
+      <description>&lt;p&gt;En el ecosistema de Linux, un proceso es la ejecución de un programa específico que realiza una tarea particular. Cada proceso tiene su propio identificador único (PID) y está compuesto por un conjunto de recursos, como memoria y CPU, que le permiten funcionar de manera independiente.&lt;/p&gt;
+&lt;p&gt;En el universo de Linux, la gestión efectiva de procesos es una habilidad crucial para optimizar el rendimiento y asegurar la estabilidad del sistema. Este post te sumergirá en los fundamentos esenciales de la gestión de procesos&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalación de Controladores NVIDIA en Debian 12</title>
+      <link>https://www.javiercd.es/posts/sistemas/nvidia/nvidia_drivers/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/nvidia/nvidia_drivers/</guid>
+      <description>&lt;p&gt;La instalación de los controladores de NVIDIA en el universo de Linux ha sido tradicionalmente un desafío, especialmente en distribuciones como Debian, donde las políticas del software libre a menudo complican el proceso.&lt;/p&gt;
+&lt;p&gt;En este post voy a explicarte una forma sencilla de instalar los drivers de NVIDIA usando los repositorios oficiales de Debian . Además, al final del artículo, aprenderás a instalar una herramienta clave llamada Nvidia Optimus, que te brindará la capacidad de seleccionar qué tarjeta gráfica utilizará tu equipo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Instalación GNS3 y Wireshark en Debian</title>
+      <link>https://www.javiercd.es/posts/redes/instalacion_wireshark_gns3/instalacion-gns3-y-wireshark/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/instalacion_wireshark_gns3/instalacion-gns3-y-wireshark/</guid>
+      <description>&lt;!-- ![2](/images/redes/instalacion_wireshark_gns3/portada_instalacion_wireshark_gns3.jpeg)
+
+![](/images/redes/instalacion_wireshark_gns3/Aspose.Words.7be2264a-b643-4cb1-9a61-896b263a0d52.003.jpeg) --&gt;
+&lt;h2 id=&#34;1-introducción&#34;&gt;1. &lt;strong&gt;Introducción&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Wireshark es un analizador de protocolos utilizado para realizar análisis y solucionar problemas en redes de comunicaciones, para análisis de datos y protocolos, y como una herramienta didáctica.&lt;/p&gt;
+&lt;p&gt;Añade una interfaz gráfica y muchas opciones de organización y filtrado de información. Así, permite ver todo el tráfico que pasa a través de una red estableciendo la configuración en modo promiscuo de nuestra tarjeta de red . También incluye una versión basada en texto llamada tshark.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migración de un sistema de ficheros</title>
+      <link>https://www.javiercd.es/posts/sistemas/migracion_sistema_de_ficheros/sistemas-de-ficheros/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/migracion_sistema_de_ficheros/sistemas-de-ficheros/</guid>
+      <description>&lt;p&gt;En ocasiones, es necesario actualizar el almacenamiento de nuestro sistema Debian para satisfacer las crecientes necesidades de espacio y mejorar la organización del disco. En esta guía, exploraremos el proceso de migración desde un disco con una única partición hacia uno con mayor capacidad, además de dividirlo en particiones separadas para una gestión más eficiente.&lt;/p&gt;
+&lt;p&gt;Este proceso no solo ampliará el espacio de almacenamiento disponible, sino que también brindará una estructura más ordenada al sistema, facilitando tareas como la gestión de respaldos, el rendimiento del sistema y la administración del espacio en disco.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>NAT con iptables</title>
+      <link>https://www.javiercd.es/posts/servicios/nat_iptables/nat_iptables/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/servicios/nat_iptables/nat_iptables/</guid>
+      <description>&lt;h1 id=&#34;nat-con-iptables&#34;&gt;NAT con iptables&lt;/h1&gt;
+&lt;p&gt;En este artículo aprenderás a configurar un pequeño escenario en el cual podrás configurar una serie de servicios. Crearás el escenario descrito a continuacion , además, harás que a través de una red interna, usando un servidor Linux, tengas acceso a Internet configurando SNAT en el mismo haciendo uso de iptables.&lt;/p&gt;
+&lt;h2 id=&#34;instalación-del-entorno-de-pruebas&#34;&gt;Instalación del entorno de pruebas&lt;/h2&gt;
+&lt;p&gt;Vamos a instalar el siguiente entorno:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.001.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Protocolo ARP</title>
+      <link>https://www.javiercd.es/posts/redes/arp/arp/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/arp/arp/</guid>
+      <description>&lt;p&gt;El Protocolo de Resolución de Direcciones (ARP) es fundamental en redes informáticas para mapear direcciones IP a direcciones físicas de capa de enlace (MAC). Su función principal es encontrar la dirección MAC asociada a una dirección IP específica en una red local. Cuando un dispositivo necesita comunicarse con otro en la misma red, utiliza ARP para determinar la dirección MAC del destino antes de enviar datos.&lt;/p&gt;
+&lt;h2 id=&#34;crees-que-la-pregunta-arp-es-un-mensaje-de-difusión-realiza-una-captura-en-wireshark-de-una-petición-arp-y-analízala-para-justificar-tu-respuesta&#34;&gt;¿Crees que la pregunta ARP es un mensaje de difusión? Realiza una captura en Wireshark de una petición ARP y analízala para justificar tu respuesta.&lt;/h2&gt;
+&lt;p&gt;Si , es un mensaje de difusión ya que en la cabecera podemos ver que el destino tiene una dirección de broadcast . Esta dirección es la que tiene todos sus bits a 1 que en las direcciones mac se traduce en FF:FF:FF:FF:FF:FF .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SSH bajo debian </title>
+      <link>https://www.javiercd.es/posts/servicios/ssh/ssh/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/servicios/ssh/ssh/</guid>
+      <description>&lt;h1 id=&#34;servidor-ssh-bajo-debian&#34;&gt;servidor SSH bajo debian&lt;/h1&gt;
+&lt;h2 id=&#34;gestión-remota-usando-ssh&#34;&gt;Gestión remota usando SSH&lt;/h2&gt;
+&lt;p&gt;Lo primeros que deberemos de hacer sera instalarnos el paquete  en el servidor y el cliente :&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.079.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Por seguridad se suele no permitir la conexión del root al servidor; para ello, se debe modificar el archivo /etc/ssh/sshd_config, y se pone la siguiente opción:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.080.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Y reiniciamos el servicio para que se apliquen los cambios :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Storage Spaces en Windows Server</title>
+      <link>https://www.javiercd.es/posts/sistemas/almacenamiento_servidor_independiente/almacenamiento_servidor_independiente/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/almacenamiento_servidor_independiente/almacenamiento_servidor_independiente/</guid>
+      <description>&lt;p&gt;Storage Spaces es una característica de almacenamiento definido por software en el sistema operativo Windows Server que permite a los administradores de sistemas combinar varios discos físicos en un único espacio de almacenamiento lógico llamado &amp;ldquo;pool de almacenamiento&amp;rdquo;. Este pool de almacenamiento se puede utilizar para crear espacios de almacenamiento virtuales llamados &amp;ldquo;espacios de almacenamiento&amp;rdquo; que ofrecen diversas funciones de redundancia y capacidades avanzadas de administración de almacenamiento.&lt;/p&gt;
+&lt;h2 id=&#34;grupos-de-almacenamiento&#34;&gt;Grupos de almacenamiento&lt;/h2&gt;
+&lt;p&gt;Los siguientes cmdlets de Windows PowerShell realizan la misma función que el procedimiento anterior. Escriba cada cmdlet en una sola línea, aunque aquí pueden aparecer con saltos de línea entre varias líneas aquí debido a restricciones de formato.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Túneles IPV6</title>
+      <link>https://www.javiercd.es/posts/redes/tuneles_ipv6/tuneles_ipv6/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/tuneles_ipv6/tuneles_ipv6/</guid>
+      <description>&lt;p&gt;En este post detallado, exploramos el proceso de configuración de túneles IPv6 a IPv4 y viceversa en entornos Linux y Cisco. A medida que la migración hacia IPv6 gana importancia, la capacidad de establecer comunicaciones entre redes IPv4 e IPv6 se vuelve fundamental. Cubriremos los conceptos básicos de la configuración de túneles, incluyendo los tipos de túneles más comunes, como 6to4 y Teredo. Además, proporcionaremos instrucciones paso a paso para la configuración tanto en sistemas Linux como en dispositivos Cisco&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Underworld</title>
+      <link>https://www.javiercd.es/posts/redes/underworld/underworld/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/underworld/underworld/</guid>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+&lt;p&gt;Vives en UNDERWORLD. En tu mundo, se presentan diferentes tipos de especies con un único fin, “cruzarse” entre sí. Estas criaturas son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;VAMPIROS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LICÁNTROPOS: hombres lobo con la capacidad de regresar a su estado humano.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HOMBRES LOBO: hombres lobo que tras su primera conversión a lobo, no pudieron regresar a su estado humano.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HUMANOS: unos mierdecillas.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Underworld evolution</title>
+      <link>https://www.javiercd.es/posts/redes/underworld_evolution/underworld_evolution/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/underworld_evolution/underworld_evolution/</guid>
+      <description>&lt;p&gt;El mundo de UNDERWORLD ha evolucionado mucho en los últimos meses, así que debes realizar tareas de administración de la red para afrontar la nueva situación.&lt;/p&gt;
+&lt;p&gt;Por un lado, se ha descubierto Internet en el Inframundo, de forma que cada uno de los submundos (recuerda: vampiros, licántropos, hombres lobo y humanos) se conecta a un router que, a su vez, les conecta a uno de los dos grandes routers que forman la Internet de Underworld, llamados Marcus (para humanos y vampiros) y Alexander (para hombres lobo y licántropos). Marcus y Alexander están conectados entre sí.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </channel>
+</rss>

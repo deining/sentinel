@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Atlas</title>
+    <link>https://www.javiercd.es/tags/linux/</link>
+    <description>Recent content in Linux on Atlas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 08 Sep 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://www.javiercd.es/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Compartir directorios con NFS en debian</title>
+      <link>https://www.javiercd.es/posts/sistemas/nfs_debian/nfs/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/nfs_debian/nfs/</guid>
+      <description>&lt;p&gt;La tecnología NFS (Network File System) ha sido una pieza fundamental en la compartición de archivos en entornos de red. Desarrollada por Sun Microsystems, NFS permite a sistemas operativos Unix y Linux compartir recursos de archivos de manera transparente, brindando acceso a archivos y directorios remotos como si estuvieran almacenados localmente.&lt;/p&gt;
+&lt;h2 id=&#34;1instalación--y-configuración-nfs&#34;&gt;1.Instalación  y configuración NFS&lt;/h2&gt;
+&lt;p&gt;Instalamos el paquete nfs-kernel-server.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.11ce2099-f519-43cd-a00b-9a47a367ade4.001.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Crearemos el directorio que vamos a compartir  y le cambiamos los dueños y los permisos del mismo :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuración de NAT Cisco y Linux</title>
+      <link>https://www.javiercd.es/posts/redes/configuracion_de_nat/configuracion_de_nat/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/configuracion_de_nat/configuracion_de_nat/</guid>
+      <description>&lt;p&gt;En este artículo, exploraremos la configuración de SNAT (Source Network Address Translation) y DNAT (Destination Network Address Translation) en escenarios con direcciones públicas, haciendo uso de routers en entornos Linux y dispositivos Cisco.&lt;/p&gt;
+&lt;h2 id=&#34;escenario-con-maquinas-debian&#34;&gt;Escenario con maquinas debian&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5d96acd8-9177-4bad-9621-78ead201ec37.001.jpeg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;preparación-del-entorno&#34;&gt;Preparación del entorno&lt;/h3&gt;
+&lt;h4 id=&#34;instalación-de-paquetes&#34;&gt;Instalación de paquetes&lt;/h4&gt;
+&lt;p&gt;Una vez colocadas las maquinas deberemos de descargarnos apache para los servidores web , para realizar esto conectaremos ambos servidores a un switch y este a la nube NAT para disponer de acceso a internet .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Empaquetadores y compresores en Linux</title>
+      <link>https://www.javiercd.es/posts/sistemas/empaquetadores_compresores/empaquetadores-compresores-descompresores/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/empaquetadores_compresores/empaquetadores-compresores-descompresores/</guid>
+      <description>&lt;p&gt;Los empaquetadores y compresores son elementos fundamentales en la gestión de archivos y datos en el ámbito informático. Los empaquetadores permiten agrupar varios archivos en un solo contenedor, facilitando su manipulación y transporte. Por otro lado, los compresores aplican técnicas para reducir el tamaño de los archivos, contribuyendo al ahorro de espacio de almacenamiento y agilizando la transferencia de datos. Estas herramientas desempeñan un papel crucial en la optimización de recursos y la eficiencia operativa al organizar, distribuir y respaldar información de manera más eficaz.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Storage Spaces en Windows Server</title>
+      <link>https://www.javiercd.es/posts/sistemas/almacenamiento_servidor_independiente/almacenamiento_servidor_independiente/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/almacenamiento_servidor_independiente/almacenamiento_servidor_independiente/</guid>
+      <description>&lt;p&gt;Storage Spaces es una característica de almacenamiento definido por software en el sistema operativo Windows Server que permite a los administradores de sistemas combinar varios discos físicos en un único espacio de almacenamiento lógico llamado &amp;ldquo;pool de almacenamiento&amp;rdquo;. Este pool de almacenamiento se puede utilizar para crear espacios de almacenamiento virtuales llamados &amp;ldquo;espacios de almacenamiento&amp;rdquo; que ofrecen diversas funciones de redundancia y capacidades avanzadas de administración de almacenamiento.&lt;/p&gt;
+&lt;h2 id=&#34;grupos-de-almacenamiento&#34;&gt;Grupos de almacenamiento&lt;/h2&gt;
+&lt;p&gt;Los siguientes cmdlets de Windows PowerShell realizan la misma función que el procedimiento anterior. Escriba cada cmdlet en una sola línea, aunque aquí pueden aparecer con saltos de línea entre varias líneas aquí debido a restricciones de formato.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Túneles IPV6</title>
+      <link>https://www.javiercd.es/posts/redes/tuneles_ipv6/tuneles_ipv6/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/tuneles_ipv6/tuneles_ipv6/</guid>
+      <description>&lt;p&gt;En este post detallado, exploramos el proceso de configuración de túneles IPv6 a IPv4 y viceversa en entornos Linux y Cisco. A medida que la migración hacia IPv6 gana importancia, la capacidad de establecer comunicaciones entre redes IPv4 e IPv6 se vuelve fundamental. Cubriremos los conceptos básicos de la configuración de túneles, incluyendo los tipos de túneles más comunes, como 6to4 y Teredo. Además, proporcionaremos instrucciones paso a paso para la configuración tanto en sistemas Linux como en dispositivos Cisco&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Underworld evolution</title>
+      <link>https://www.javiercd.es/posts/redes/underworld_evolution/underworld_evolution/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/underworld_evolution/underworld_evolution/</guid>
+      <description>&lt;p&gt;El mundo de UNDERWORLD ha evolucionado mucho en los últimos meses, así que debes realizar tareas de administración de la red para afrontar la nueva situación.&lt;/p&gt;
+&lt;p&gt;Por un lado, se ha descubierto Internet en el Inframundo, de forma que cada uno de los submundos (recuerda: vampiros, licántropos, hombres lobo y humanos) se conecta a un router que, a su vez, les conecta a uno de los dos grandes routers que forman la Internet de Underworld, llamados Marcus (para humanos y vampiros) y Alexander (para hombres lobo y licántropos). Marcus y Alexander están conectados entre sí.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

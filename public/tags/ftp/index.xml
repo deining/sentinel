@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FTP on Atlas</title>
+    <link>https://www.javiercd.es/tags/ftp/</link>
+    <description>Recent content in FTP on Atlas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 08 Sep 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://www.javiercd.es/tags/ftp/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>FTP bajo debian </title>
+      <link>https://www.javiercd.es/posts/servicios/ftp/ftp/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/servicios/ftp/ftp/</guid>
+      <description>&lt;h1 id=&#34;servidor-ftp-bajo-debian&#34;&gt;Servidor FTP bajo debian&lt;/h1&gt;
+&lt;h2 id=&#34;instalación-y-configuración-del-servidor-proftpd-autentificado&#34;&gt;Instalación y configuración del servidor proFTPd autentificado&lt;/h2&gt;
+&lt;p&gt;1.Primero nos crearemos un grupo que se llame ftpgroup :
+&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.160.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;2.Crea dos usuarios locales que pertenezcan al grupo ftp que hemos creado: Jose y Maria&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.161.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;3.Nos instalamos el servicio ftp :&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5fca9cc1-3c81-4853-a5ed-a70b0122341b.162.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;4.Configuración básica del fichero proftpd.conf:&lt;/p&gt;
+&lt;p&gt;Todos los usuarios accedan  solo a su directorio :&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

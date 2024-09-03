@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cisco on Atlas</title>
+    <link>https://www.javiercd.es/tags/cisco/</link>
+    <description>Recent content in Cisco on Atlas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 08 Sep 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://www.javiercd.es/tags/cisco/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Configuración de NAT Cisco y Linux</title>
+      <link>https://www.javiercd.es/posts/redes/configuracion_de_nat/configuracion_de_nat/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/configuracion_de_nat/configuracion_de_nat/</guid>
+      <description>&lt;p&gt;En este artículo, exploraremos la configuración de SNAT (Source Network Address Translation) y DNAT (Destination Network Address Translation) en escenarios con direcciones públicas, haciendo uso de routers en entornos Linux y dispositivos Cisco.&lt;/p&gt;
+&lt;h2 id=&#34;escenario-con-maquinas-debian&#34;&gt;Escenario con maquinas debian&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.5d96acd8-9177-4bad-9621-78ead201ec37.001.jpeg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;preparación-del-entorno&#34;&gt;Preparación del entorno&lt;/h3&gt;
+&lt;h4 id=&#34;instalación-de-paquetes&#34;&gt;Instalación de paquetes&lt;/h4&gt;
+&lt;p&gt;Una vez colocadas las maquinas deberemos de descargarnos apache para los servidores web , para realizar esto conectaremos ambos servidores a un switch y este a la nube NAT para disponer de acceso a internet .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuración de switches en GNS3</title>
+      <link>https://www.javiercd.es/posts/redes/switches_gns3/configuracion_de_switches_en_gns3/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/switches_gns3/configuracion_de_switches_en_gns3/</guid>
+      <description>&lt;p&gt;Aprenderás a configurar switches en GNS3, tanto dispositivos genéricos como switches Cisco, utilizando el concepto de VLANs para segmentar la red y explorar las complejidades de la gestión de redes.&lt;/p&gt;
+&lt;h2 id=&#34;preparación-escenario&#34;&gt;Preparación escenario&lt;/h2&gt;
+&lt;p&gt;Lo primero que haré sera montar el escenario :&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.1880b7c0-3050-4e53-a32a-505911fdf872.001.jpeg&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;configuración-de-red-de-los-clientes&#34;&gt;Configuración de red de los clientes&lt;/h3&gt;
+&lt;p&gt;A continuación configurare las tarjetas de red de los clientes , aprovechando que la nube NAT incluye un servidor DHCP.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Túneles IPV6</title>
+      <link>https://www.javiercd.es/posts/redes/tuneles_ipv6/tuneles_ipv6/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/tuneles_ipv6/tuneles_ipv6/</guid>
+      <description>&lt;p&gt;En este post detallado, exploramos el proceso de configuración de túneles IPv6 a IPv4 y viceversa en entornos Linux y Cisco. A medida que la migración hacia IPv6 gana importancia, la capacidad de establecer comunicaciones entre redes IPv4 e IPv6 se vuelve fundamental. Cubriremos los conceptos básicos de la configuración de túneles, incluyendo los tipos de túneles más comunes, como 6to4 y Teredo. Además, proporcionaremos instrucciones paso a paso para la configuración tanto en sistemas Linux como en dispositivos Cisco&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Underworld</title>
+      <link>https://www.javiercd.es/posts/redes/underworld/underworld/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/underworld/underworld/</guid>
+      <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;
+&lt;p&gt;Vives en UNDERWORLD. En tu mundo, se presentan diferentes tipos de especies con un único fin, “cruzarse” entre sí. Estas criaturas son:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;VAMPIROS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LICÁNTROPOS: hombres lobo con la capacidad de regresar a su estado humano.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HOMBRES LOBO: hombres lobo que tras su primera conversión a lobo, no pudieron regresar a su estado humano.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;HUMANOS: unos mierdecillas.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Underworld evolution</title>
+      <link>https://www.javiercd.es/posts/redes/underworld_evolution/underworld_evolution/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/redes/underworld_evolution/underworld_evolution/</guid>
+      <description>&lt;p&gt;El mundo de UNDERWORLD ha evolucionado mucho en los últimos meses, así que debes realizar tareas de administración de la red para afrontar la nueva situación.&lt;/p&gt;
+&lt;p&gt;Por un lado, se ha descubierto Internet en el Inframundo, de forma que cada uno de los submundos (recuerda: vampiros, licántropos, hombres lobo y humanos) se conecta a un router que, a su vez, les conecta a uno de los dos grandes routers que forman la Internet de Underworld, llamados Marcus (para humanos y vampiros) y Alexander (para hombres lobo y licántropos). Marcus y Alexander están conectados entre sí.&lt;/p&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

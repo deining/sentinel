@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Atlas</title>
+    <link>https://www.javiercd.es/tags/windows/</link>
+    <description>Recent content in Windows on Atlas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 08 Sep 2023 10:00:00 +0000</lastBuildDate><atom:link href="https://www.javiercd.es/tags/windows/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Compartir recursos en red en Windows Server</title>
+      <link>https://www.javiercd.es/posts/sistemas/comparticion_de_directorios_en_windows/comparticion_de_directorios_en_windows/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/comparticion_de_directorios_en_windows/comparticion_de_directorios_en_windows/</guid>
+      <description>&lt;p&gt;En el entorno empresarial, la capacidad de compartir recursos en red es esencial para la colaboración y la eficiencia operativa. En este artículo, exploraremos cómo compartir directorios en un entorno Windows Server, abordando los métodos tanto a través de la interfaz gráfica como mediante cmd y PowerShell.&lt;/p&gt;
+&lt;h2 id=&#34;desde-la-interfaz-gráfica&#34;&gt;Desde la interfaz gráfica&lt;/h2&gt;
+&lt;p&gt;Podemos compartir un directorio de nuestro servidor , accediendo a las propiedades del mismo . Una vez aquí pulsamos sobre el menú compartir :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuración servicio ssh en Windows</title>
+      <link>https://www.javiercd.es/posts/sistemas/ssh_windows/ssh_windows/</link>
+      <pubDate>Fri, 08 Sep 2023 10:00:00 +0000</pubDate>
+      
+      <guid>https://www.javiercd.es/posts/sistemas/ssh_windows/ssh_windows/</guid>
+      <description>&lt;h2 id=&#34;1instalación-de-la-característica&#34;&gt;1.Instalación de la característica&lt;/h2&gt;
+&lt;p&gt;Lo primero que comprobaremos es comprobar si el servidor ssh esta instalado en la maquina a la cual queremos conectarnos .&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ps&#34; data-lang=&#34;ps&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Get-WindowsCapability&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;-Online&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Where-Object&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Name&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;-like&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;&amp;#39;OpenSSH\*&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;../img/Aspose.Words.abd631a7-a62e-4d27-bef0-1d38f74ce102.001.jpeg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;En el caso de que tengamos la característica la instalaremos :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ps&#34; data-lang=&#34;ps&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Add-WindowsCapability&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;-Online&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;-Name&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;OpenSSH.Server~~~~0.0.1.0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
+    </item>
+    
+    
+  </channel>
+</rss>
