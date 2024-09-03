@@ -52,6 +52,11 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
+
+services:
+  googleAnalytics:
+    id: G-GVDYVWJLRH
+
 # Site parameters
 params:
   # Background image of the landing page
@@ -141,7 +146,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
