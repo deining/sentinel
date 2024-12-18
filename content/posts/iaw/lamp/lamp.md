@@ -5,6 +5,17 @@ description: Instalación pila LAMP
 tags: [WordPress,CMS,IWEB,AW,debian,LAMP]
 hero: /images/iweb/lamp/portada_lamp.png
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GVDYVWJLRH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GVDYVWJLRH');
+</script>
+
 # Instalación pila LAMP en Debian 12
 
 Si estás utilizando Debian 12, sigue los pasos a continuación para instalar un servidor web LAMP completo en Debian GNU/Linux 12 "Bookworm" (Stable). Ten en cuenta que Debian 12 incluye PHP 8.2 en sus repositorios, lo que puede ser diferente de versiones anteriores de Debian.
@@ -22,7 +33,7 @@ Con estos comandos, habrás instalado y activado el servidor web Apache. Puedes 
 
 ## Instalación de PHP 
 
-Por lo general, necesitarás instalar algunos paquetes específicos para PHP, llamados modulos en funcion de la base de datos que utilices. Puedes instalarlos con el siguiente comando:
+Por lo general, necesitarás instalar algunos paquetes específicos para PHP, llamados módulos en función de la base de datos que utilices. Puedes instalarlos con el siguiente comando:
 
 ```bash
 javiercruces@IWEB:~$ sudo apt install php8.2 libapache2-mod-php8.2 php8.2-mysql
